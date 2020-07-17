@@ -1,0 +1,152 @@
+h1 { 
+    border-bottom: 1px dashed black;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.monogram {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    height: 200px;
+    width: 600px;
+}
+
+.first {
+    display: grid;
+    grid-template-areas:
+    "firstline firstline firstline firstline"
+    "secondline . . ."
+    "thirdline thirdline thirdline thirdline"
+    ". . . fourthline"
+    "fifthline fifthline fifthline fifthline";
+    height: 200px;
+    width: 200px;
+}
+
+.firstline {
+    grid-area: firstline;
+    background-color: #144ba0;
+}
+
+.secondline {
+    grid-area: secondline;
+    background-color: #144ba0;
+}
+
+.thirdline {
+    grid-area: thirdline;
+    background-color: #144ba0;
+}
+
+.fourthline {
+    grid-area: fourthline;
+    background-color: #144ba0;
+}
+
+.fifthline {
+    grid-area: fifthline;
+    background-color: #144ba0;
+}
+
+.second {
+    display: grid;
+    grid-template-areas:
+    "firsta firsta firsta firsta"
+    "seconda . . firstcolumn"
+    "thirda thirda thirda thirda"
+    "fourtha . . secondcolumn"
+    "fiftha . . thirdcolumn";
+    height: 200px;
+    width: 200px;
+}
+
+.firsta {
+    grid-area: firsta;
+    background-color: #db3069;
+}
+
+.seconda {
+    grid-area: seconda;
+    background-color: #db3069;
+}
+
+.thirda {
+    grid-area: thirda;
+    background-color: #db3069;
+}
+
+.fourtha {
+    grid-area: fourtha;
+    background-color: #db3069;
+}
+
+.fiftha {
+    grid-area: fiftha;
+    background-color: #db3069;
+}
+
+.firstcolumn {
+    grid-area: firstcolumn;
+    background-color: #db3069;
+}
+
+.secondcolumn {
+    grid-area: secondcolumn;
+    background-color: #db3069;
+}
+
+.thirdcolumn {
+    grid-area: thirdcolumn;
+    background-color: #db3069;
+}
+
+.third {
+    display: grid;
+    grid-template-areas:
+    "firstc firstc firstc firstc"
+    "secondc . . ."
+    "thirdc . . ."
+    "fourthc . . ."
+    "fifthc fifthc fifthc fifthc";
+    height: 200px;
+    width: 200px;
+}
+
+.firstc {
+    grid-area: firstc;
+    background-color: #F5D547;
+}
+
+.secondc {
+    grid-area: secondc;
+    background-color: #F5D547;
+}
+
+.thirdc {
+    grid-area: thirdc;
+    background-color: #F5D547;
+}
+
+.fourthc {
+    grid-area: fourthc;
+    background-color: #F5D547;
+}
+
+.fifthc {
+    grid-area: fifthc;
+    background-color: #F5D547;
+}
+
+
+@media only screen and (max-width: 640px) {  
+    .monogram {
+        display: flex;
+        flex-direction: column;
+    }
+}

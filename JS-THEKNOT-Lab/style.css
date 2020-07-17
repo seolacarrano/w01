@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:400,600|Roboto+Slab&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 1024px;
+}
+
+/* 
+  FONTS:
+  ItemHeader - Roboto Slab
+  ItemHeading - Open San
+*/

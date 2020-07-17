@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 100px;
+    width: 100px;
+    background-color: salmon;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
